@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/light_green_army"
+    tools:context=".ui.review.ReviewActivity">
+
+    <LinearLayout
+        android:windowSoftInputMode="adjustResize"
+        android:id="@+id/content_container"
+        android:paddingBottom="30dp"
+        android:background="@drawable/bg_rounded_dark_green_army"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/review"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            style="@style/text_title_auth"
+            android:layout_marginTop="30dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/addNameEditTextLayout"
+            style="@style/edit_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_add_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:hint="@string/hint_name"
+                android:textColorHint="@color/white"
+                android:inputType="text"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_rate"
+            style="@style/text_title_auth"
+            android:text="@string/rate" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/addrateEditTextLayout"
+            style="@style/edit_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_add_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="14sp"
+                android:gravity="start"
+                android:textColor="@color/white"
+                android:hint="@string/enter_rate"
+                android:textColorHint="@color/white"
+                android:inputType="numberDecimal"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_desc"
+            style="@style/text_title_auth"
+            android:text="@string/tv_comment" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/addCommentReviewEditTextLayout"
+            style="@style/edit_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_add_comment_review"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="14sp"
+                android:gravity="start"
+                android:textColor="@color/white"
+                android:hint="@string/hint_comment"
+                android:textColorHint="@color/white"
+                android:inputType="textMultiLine"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.dicoding.chillicare.ui.customview.MyYellowButton
+            android:id="@+id/btn_add_forum"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:textColor="@color/black"
+            android:paddingVertical="15dp" />
+    </LinearLayout>
+
+</ScrollView>

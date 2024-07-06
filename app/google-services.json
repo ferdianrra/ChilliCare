@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "54726706918",
+    "project_id": "chillicare-5b67c",
+    "storage_bucket": "chillicare-5b67c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54726706918:android:5532b8636a9c76f41fdd27",
+        "android_client_info": {
+          "package_name": "com.dicoding.chillicare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHtiUnhDlVWUvJ3EV1ovVEym4pnnadwZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

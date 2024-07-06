@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">ChilliCare</string>
+    <string name="title_home">Home</string>
+    <string name="title_forum">Forum</string>
+    <string name="title_profile">Profile</string>
+    <string name="logo_plant">Logo Plant</string>
+    <string name="title">ChilliCare</string>
+    <string name="slogan">Cultivating Healthy Chilies, \nGrowing Prosperity</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register_title">Register!</string>
+    <string name="log_in">Log In</string>
+    <string name="name">Name</string>
+    <string name="hint_name">Enter name</string>
+    <string name="email">Email</string>
+    <string name="hint_email">Enter email</string>
+    <string name="hint_password">Enter password</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="register_description">Manage chili plants better with ChilliCare. Access disease detection tools and join knowledge-sharing forums.</string>
+    <string name="sign_in_title">Let’s Sign\nYou In</string>
+    <string name="sign_in_description">Care for Your Chili Plants with ChilliCare!</string>
+    <string name="error_empty">Field cannot be empty</string>
+    <string name="error_passwords_not_match">Passwords do not match.</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="sample_name">Your Name</string>
+    <string name="log_out">Log Out</string>
+    <string name="sample_date">08:00 17 June 2024</string>
+    <string name="sample_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero a velit condimentum, eget facilisis dui gravida. Proin lobortis metus nec nisi fringilla efficitur. Integer eleifend elit et lacinia lobortis. Nullam nec dui non nisi suscipit rutrum. Fusce nec tellus sit amet velit hendrerit consectetur. Duis eget nunc sed enim condimentum tincidunt. Suspendisse potenti. Pellentesque posuere tincidunt ultricies. Morbi in dolor nec justo condimentum faucibus nec in velit. Sed at gravida tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis vitae nunc id elit malesuada venenatis. Integer scelerisque tortor vel enim condimentum, ut sodales lacus venenatis. Nulla bibendum lacus eu neque pellentesque ultricies. Vivamus sem eros, sollicitudin ut tincidunt sit amet, efficitur et ipsum.</string>
+    <string name="submit">Submit</string>
+    <string name="add_forum">Add Forum</string>
+    <string name="add_forum_description">Contribute by adding a new forum topic! Share your knowledge and experiences with others.</string>
+    <string name="title_add_forum">Title</string>
+    <string name="hint_title">Enter Title</string>
+    <string name="description">Description</string>
+    <string name="hint_description">Enter Description</string>
+    <string name="sample_title">Your Title</string>
+    <string name="welcome">Welcome, %s!</string>
+    <string name="home_header_desc">Find the best ways \nto keep your chili plants healthy.</string>
+    <string name="service">Service</string>
+    <string name="history">History</string>
+    <string name="image_history">image_history</string>
+    <string name="detect_disease">Detect Disease</string>
+    <string name="comment">What People Are Saying</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="my_rating">5.0</string>
+    <string name="my_name_review">Ferdi</string>
+    <string name="my_comment_review">So Recommended</string>
+    <string name="review">Review</string>
+    <string name="rate">Rate</string>
+    <string name="enter_rate">Enter rate</string>
+    <string name="hint_comment">Enter comment</string>
+    <string name="tv_comment">Comment</string>
+    <string name="feedback_completed">Thank You for Your Feedback</string>
+    <string name="scan_disease">Scan Disease</string>
+    <string name="upload_guide_desc">Upload your photo in here</string>
+    <string name="pencegahan">Pencegahan</string>
+    <string name="sample_disease_name">Daun Kuning</string>
+    <string name="no_activity">No Activity</string>
+    <string name="back_to_forum">Back To Forum</string>
+    <string name="sample_email">YourEmail@gmail.com</string>
+    <string name="back_to_home">Back To Home</string>
+    <string name="date">date</string>
+    <string name="disease">Disease</string>
+
+    <string-array name="chilli_disease">
+        <item>Bercak Daun</item>
+        <item>Virus Kuning</item>
+        <item>Daun Sehat</item>
+    </string-array>
+
+    <string-array name="disease_desc">
+        <item>Bercak daun pada tanaman cabai adalah salah satu penyakit yang sering menyerang dan dapat menyebabkan kerusakan serius pada tanaman jika tidak ditangani dengan baik. Penyakit ini disebabkan oleh berbagai patogen, termasuk bakteri, jamur, dan virus.</item>
+        <item>Virus Kuning pada cabai, disebabkan oleh berbagai virus, terutama begomovirus yang disebarkan oleh kutu kebul (Bemisia tabaci). Gejala utama penyakit ini meliputi daun muda yang menguning, menggulung, dan mengeriting. Pertumbuhan tanaman terhambat, daun mengecil, dan produksi buah berkurang secara signifikan. Tanaman yang terinfeksi berat dapat mengalami kerdil dan mati.</item>
+        <item>Daun cabai sehat berwarna hijau tua yang merata, tanpa bercak atau perubahan warna. Permukaannya halus, segar, dan tidak mengkerut atau menggulung. Daun terasa elastis, tidak kaku atau rapuh, serta tidak menunjukkan tanda-tanda kerusakan fisik seperti robekan atau lubang. Tulang daun terlihat jelas dan berfungsi baik, menandakan transportasi nutrisi yang optimal. Tidak ada tanda-tanda serangan hama atau penyakit, menunjukkan bahwa tanaman tumbuh dengan baik dan mendapatkan perawatan yang memadai.</item>
+    </string-array>
+    <string-array name="disease_prevention">
+        <item>Beberapa langkah penting yang dapat diambil. Pertama, gunakan benih cabai yang bebas penyakit dan pilih varietas yang tahan terhadap bercak daun untuk mengurangi risiko infeksi. Terapkan rotasi tanaman dengan menanam tanaman yang tidak rentan terhadap patogen bercak daun untuk mencegah akumulasi patogen di tanah. Jaga kebersihan lahan dan alat pertanian dengan membersihkannya secara teratur untuk mencegah penyebaran patogen. Pastikan jarak tanam yang cukup antara tanaman untuk memastikan sirkulasi udara yang baik, dan hindari penyiraman daun dengan melakukan penyiraman di pangkal tanaman guna mengurangi kelembapan yang mendukung pertumbuhan patogen.</item>
+        <item>Untuk mencegah Virus Kuning pada cabai, mulailah dengan menggunakan benih bebas virus dan varietas yang tahan penyakit. Lakukan kontrol vektor kutu kebul secara rutin dengan menggunakan insektisida yang sesuai atau metode mekanis seperti pemasangan jaring pelindung. Jaga kebersihan lahan dan alat pertanian untuk mencegah penyebaran virus. Terapkan rotasi tanaman dengan menanam tanaman non-inang untuk mengurangi populasi kutu kebul. Hindari menanam cabai dekat tanaman yang rentan terhadap virus ini. Selain itu, tanam cabai dengan jarak yang cukup untuk memastikan sirkulasi udara yang baik dan mengurangi kelembapan yang disukai kutu kebul. Dengan langkah-langkah ini, risiko infeksi Virus Kuning dapat diminimalkan, menjaga kesehatan dan produktivitas tanaman cabai.</item>
+        <item>Untuk menjaga daun cabai tetap sehat, mulailah dengan menggunakan benih berkualitas yang bebas penyakit. Lakukan penyiraman di pangkal tanaman dan hindari menyiram daun untuk mengurangi kelembapan berlebih. Berikan pupuk secara seimbang sesuai kebutuhan tanaman dan monitor hama serta penyakit secara rutin, mengambil tindakan pengendalian jika diperlukan. Pastikan jarak tanam yang cukup untuk memastikan sirkulasi udara yang baik, dan jaga kebersihan lahan serta alat pertanian untuk mencegah penyebaran patogen. Terapkan rotasi tanaman guna menghindari akumulasi patogen di tanah. Dengan langkah-langkah ini, daun cabai akan tetap sehat dan tanaman dapat tumbuh optimal.</item>
+    </string-array>
+</resources>
